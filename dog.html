@@ -1,1 +1,133 @@
+<!DOCTYPE html>
+<html lang="zh">
+    <head>
 
+        <meta charset="UTF-8">
+        <title>5.1 狗书</title>
+
+        <style type="text/css">
+
+            .header {
+                background: #0074D9;
+                padding-left: 16px;
+                color: white;
+            }
+
+            .main {
+                display: flex;
+                padding: 0;
+            }
+
+            .menu {
+                background: #7fdbff;
+                padding: 0 32px;
+                margin-right: 16px;
+            }
+
+            .menu li {
+                list-style-type: none;
+                margin-bottom: 4px;
+            }
+
+            .menu li:before {
+                content: "";
+                display: inline-block;
+                background-image: url(https://d30y9cdsu7xlg0.cloudfront.net/png/96533-200.png);
+                background-size: 100% 100%;
+                width: 16px;
+                height: 16px;
+                margin-right: 8px;
+            }
+
+            .footer {
+                background: #001f3f;
+                color: white;
+                font-size: 20px;
+                text-align: center;
+            }
+
+            div { font-family: sans-serif; }
+
+            div h1,
+            div h3 { font-family: "Comic Sans MS"; }
+
+            body { margin: 0; }
+
+            body > div { padding: 16px 0; }
+
+            ul { padding: 0; }
+
+            .park .post {
+                display: flex;
+                list-style-type: none;
+                margin-bottom: 8px;
+            }
+            .park .post img {
+                width: 50px;
+                height: 50px;
+                margin-right: 30px;
+                border-radius: 50%;
+            }
+
+            img{
+                width: 50%;
+            }
+
+        </style>
+
+    </head>
+    <body>
+
+        <div class="header">
+            <h1>狗书™</h1>
+        </div>
+
+        <div class="main">
+            <div class="menu">
+
+                <h3>菜单</h3>
+                <ul>
+                    <li>狗窝</li>
+                    <li>美食</li>
+                    <li>抓东西</li>
+                    <li>摇尾巴</li>
+                    <li>散步</li>
+                </ul>
+
+            </div>
+
+            <div class="park">
+
+                <h3>公园</h3>
+                <ul>
+                    <li class="post">
+                        <img src="https://cdn.pixabay.com/photo/2018/01/01/18/53/dog-3054726_960_720.jpg">
+                        <p>Hello!</p>
+                    </li>
+                    <li class="post">
+                        <img src="https://cdn.pixabay.com/photo/2017/12/28/06/28/dog-3044517_960_720.jpg">
+                        <p>Hi!</p>
+                    </li>
+                    <li class="post">
+                        <img src="https://cdn.pixabay.com/photo/2015/02/05/12/09/chihuahua-624924_960_720.jpg">
+                        <p>午饭?</p>
+                    </li>
+                    <li class="post">
+                        <img src="https://cdn.pixabay.com/photo/2015/06/08/15/02/pug-801826_960_720.jpg">
+                        <p>怎么了?</p>
+                    </li>
+                    <li class="post">
+                        <img src="https://cdn.pixabay.com/photo/2017/12/23/09/19/dog-3034941_960_720.jpg">
+                        <p>你觉得骨头怎么样?</p>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>© 狗书 2019</p>
+        </div>
+
+    </body>
+</html>
